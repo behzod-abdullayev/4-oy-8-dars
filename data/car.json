@@ -1,0 +1,32 @@
+[
+  {
+    "id": "c5f0ac7f-0ae8-4149-b98d-63b40f6254a4",
+    "name": "cobalt",
+    "brand": "General motors",
+    "engine": "1.5 l",
+    "meal": "benzin, metan, propan",
+    "type": "internal combustion engine",
+    "zeroToHundered": "11.7 seconds ",
+    "hp": "106 horse power"
+  },
+  {
+    "id": "c6cccfe6-94b8-4e18-8123-d4701eaecacc",
+    "name": "tesla model s",
+    "brand": "Tesla",
+    "engine": " 4 electric engines for each wheel",
+    "meal": "electr",
+    "type": "electric",
+    "zeroToHundered": "3,2 seconds",
+    "hp": "1020 horse power"
+  },
+  {
+    "id": "2d70d4ad-af6c-4c6b-a072-5d83ff7ada95",
+    "name": "bmw m4 f84",
+    "brand": "BMW",
+    "engine": " 3.0 l",
+    "meal": "benzin",
+    "type": "internal combustion engine",
+    "zeroToHundered": "4.3 seconds ",
+    "hp": "431 horse power"
+  }
+]
