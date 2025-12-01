@@ -1,6 +1,16 @@
-const {Router} = require("express")
-const { getAllData, getOneData, addData, updateData, deleteData, updateadmin } = require("../controller/data.controller")
-const {authorization, authorization2} = require("../middleware/authorization")
+const { Router } = require("express");
+const {
+  getAllData,
+  getOneData,
+  addData,
+  updateData,
+  deleteData,
+  updateadmin,
+} = require("../controller/data.controller");
+const {
+  authorization,
+  authorization2,
+} = require("../middleware/authorization");
 
 const dataRouter = Router();
 

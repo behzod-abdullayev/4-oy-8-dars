@@ -41,7 +41,6 @@ const authorization = (req, res, next) => {
   }
 };
 
-
 const authorization2 = (req, res, next) => {
   try {
     const bearerToken = req.headers.authorization;
@@ -76,7 +75,6 @@ const authorization2 = (req, res, next) => {
     });
   }
 };
-
 
 module.exports = {
   authorization,

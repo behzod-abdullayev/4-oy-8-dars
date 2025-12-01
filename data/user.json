@@ -1,30 +1,38 @@
 [
-    {
-        "id": "3628c980-cda4-4ad1-8bca-382329c13daf",
-        "username": "ali",
-        "email": "ali@gmail.com",
-        "role": "user",
-        "password": "$2b$12$jcWA2hLUHQ2CaUkhLdrW/eUnBq5XoqEnh.lvmgkgggx2wIL8ZPVEG"
-    },
-    {
-        "id": "619735df-e700-4b5d-b962-ca72eed1df99",
-        "username": "behzod",
-        "email": "behzod@gmail.com",
-        "role": "superadmin",
-        "password": "$2b$12$19g6S82mQHU1K9x15D07f.Y/zoTF58Enev1r7MFel5vjuTHv3Q.Lq"
-    },
-    {
-        "id": "3953c5df-9a53-468b-a82f-269cdb18191e",
-        "username": "donyor",
-        "email": "donyor@gmail.com",
-        "role": "user",
-        "password": "$2b$12$RibGZWvcSbu9ESuHImPC3uyOhvtwo3nqsOXyDzTuUpgxxNVnj3cka"
-    },
-    {
-        "id": "8ec247b6-2bca-4b9e-b6f8-b22716dc93f4",
-        "username": "aziz",
-        "email": "aziz@gmail.com",
-        "role": "admin",
-        "password": "$2b$12$b6B2ZddKbm9xfKoH42cr3OTWl/xph.34NkslOR7CZs3eShH/LAXw6"
-    }
+  {
+    "coment": "bu gap json faylda coment yozib bolmagani uchun shunday yozilgan. parollar username bilan birxil masalan (donyorni paroli donyor, behzodning paroli behzod)"
+  },
+
+
+
+
+  
+  {
+    "id": "21302d21-1ea7-4b87-a6e2-104e3792f692",
+    "username": "ali",
+    "email": "ali@gmail.com",
+    "role": "user",
+    "password": "$2b$12$zl3X802tXKGtzuhwOVLxdeaM1.Cm3FSWMQS3.jploOcYXzCQEHiN6"
+  },
+  {
+    "id": "26be05ee-479c-4708-8a4d-457f04e36f1b",
+    "username": "behzod",
+    "email": "behzod@gmail.com",
+    "role": "user",
+    "password": "$2b$12$GiBTZPna7B3k2crHQ5sTgeY5r9427X9swfE65dJPICUZPDwWLtdMu"
+  },
+  {
+    "id": "ee3e1bc8-79a3-4d23-91f0-963b1eeb95e0",
+    "username": "donyor",
+    "email": "donyor@gmail.com",
+    "role": "user",
+    "password": "$2b$12$lvxsuSELq1QenJjJHUrbNubtZdQf..m56tufA9mZ8VHysrd26P11S"
+  },
+  {
+    "id": "5c6488c4-7243-4930-acfc-31248cd2e761",
+    "username": "aziz",
+    "email": "aziz@gmail.com",
+    "role": "user",
+    "password": "$2b$12$FvV0KymWTHFayPleGk4EMOxSPR6pcHjAKUiSGZPCVKjlTa0NWbko."
+  }
 ]

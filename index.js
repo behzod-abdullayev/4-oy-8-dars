@@ -9,10 +9,9 @@ app.use(cors());
 app.use(express.json());
 const PORT = process.env.PORT || 3000;
 
-
 //router
-app.use(authRouter)
-app.use((dataRouter))
+app.use(authRouter);
+app.use(dataRouter);
 
 app.listen(PORT, () => {
   console.log("server is running at:", PORT);

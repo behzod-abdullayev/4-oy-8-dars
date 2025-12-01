@@ -118,8 +118,6 @@ const deleteData = async (req, res) => {
   }
 };
 
-
-
 const updateadmin = async (req, res) => {
   try {
     const { role } = req.body;
@@ -153,13 +151,11 @@ const updateadmin = async (req, res) => {
   }
 };
 
-
-
 module.exports = {
-    getAllData,
-    getOneData,
-    addData,
-    updateData,
-    deleteData,
-    updateadmin
-}
+  getAllData,
+  getOneData,
+  addData,
+  updateData,
+  deleteData,
+  updateadmin,
+};
