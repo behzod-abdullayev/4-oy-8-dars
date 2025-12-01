@@ -119,10 +119,47 @@ const deleteData = async (req, res) => {
 };
 
 
+
+const updateadmin = async (req, res) => {
+  try {
+    const { role } = req.body;
+    const { id } = req.params;
+
+    const users = read_file("user.json");
+    const foundUser = users.find((item) => item.id === id);
+
+    if (!foundUser) {
+      return res.status(404).json({
+        message: "user not found",
+      });
+    }
+
+    // rolni o'zgartirish
+    users.forEach((item) => {
+      if (item.id === id) {
+        item.role = role || item.role;
+      }
+    });
+
+    write_file("user.json", users);
+
+    res.status(200).json({
+      message: "role updated",
+    });
+  } catch (error) {
+    res.status(500).json({
+      message: error.message,
+    });
+  }
+};
+
+
+
 module.exports = {
     getAllData,
     getOneData,
     addData,
     updateData,
-    deleteData
+    deleteData,
+    updateadmin
 }
